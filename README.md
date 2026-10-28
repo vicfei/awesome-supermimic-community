@@ -1,11 +1,11 @@
 <div align="center">
 
-# Awesome SuperMimic Plus
+# Awesome SuperMimic Community
 
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/sindresorhus/awesome)
 [![License: CC0](https://img.shields.io/badge/License-CC0_1.0-blue.svg)](LICENSE)
 
-**Deep dives, reproduction tracking, and the surrounding stack for [SuperMimic](https://arxiv.org/abs/2610.28480) — humanoid whole-body control trained through a differentiable world model on a single GPU.**
+**Community hub for [SuperMimic](https://arxiv.org/abs/2610.28480): deep dives, reproduction tracking, and the surrounding stack — humanoid whole-body control trained through a differentiable world model on a single GPU.**
 
 English · [简体中文](README_zh-CN.md)
 

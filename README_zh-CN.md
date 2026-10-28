@@ -1,11 +1,11 @@
 <div align="center">
 
-# Awesome SuperMimic Plus
+# Awesome SuperMimic Community
 
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/sindresorhus/awesome)
 [![License: CC0](https://img.shields.io/badge/License-CC0_1.0-blue.svg)](LICENSE)
 
-**[SuperMimic](https://arxiv.org/abs/2610.28480) 的深度解读、复现追踪与上下游技术栈——单 GPU、可微世界模型训练人形全身控制。**
+**[SuperMimic](https://arxiv.org/abs/2610.28480) 社区中枢：深度解读、复现追踪与上下游技术栈——单 GPU、可微世界模型训练人形全身控制。**
 
 [English](README.md) · 简体中文
 
