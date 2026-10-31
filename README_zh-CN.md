@@ -71,6 +71,12 @@ SuperMimic 所处的"算力塌方"大潮——单卡或无卡。
 - [jonathanhawkins/microduck-lab](https://github.com/jonathanhawkins/microduck-lab) — 普通 Mac 无 CUDA 训练双足 RL，浏览器实时查看。
 - [pollen-robotics/microduck_rl](https://github.com/pollen-robotics/microduck_rl) — 800g 双足的全开源 sim2real 配方（mjlab + PPO）。
 
+**算力塌方光谱** —— 同一个世界模型思想，横跨五个数量级的硬件：
+
+Genie 3（DeepMind，闭源前沿）→ **SuperMimic**（1×H100，3 小时，真人形）
+→ [tinyworlds](https://github.com/AlmondGod/tinyworlds)（Genie 最小教学实现：STT + VAE + FSQ，把方法讲透）
+→ [tinyworldformer](https://github.com/SheepSeb/tinyworldformer)（$2 树莓派 Pico 2W：26k–131k 参数 int8 循环 Transformer 世界模型 + 在自己的梦里学习游玩的 actor——片上 RL）
+
 ## 贡献
 
 见 [CONTRIBUTING.md](CONTRIBUTING.md)。短版：一条一链、一句为什么；复现行必须带状态证据；禁止署名水印。

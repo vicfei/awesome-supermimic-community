@@ -74,6 +74,12 @@ The broader "compute collapse" wave SuperMimic rides — one GPU or none.
 - [jonathanhawkins/microduck-lab](https://github.com/jonathanhawkins/microduck-lab) — RL biped policies trained on a plain Mac, no CUDA, live browser viewer.
 - [pollen-robotics/microduck_rl](https://github.com/pollen-robotics/microduck_rl) — full open sim2real recipe (mjlab + PPO) for a 800 g biped.
 
+**The compute-collapse spectrum** — world models, same idea, five orders of magnitude of hardware:
+
+Genie 3 (DeepMind, closed frontier) → **SuperMimic** (1×H100, 3 h, real humanoid)
+→ [tinyworlds](https://github.com/AlmondGod/tinyworlds) (minimal Genie teaching impl: STT + VAE + FSQ, understands the method)
+→ [tinyworldformer](https://github.com/SheepSeb/tinyworldformer) ($2 Pico 2 W: 26k–131k-param int8 looped-transformer world model + an actor that learns to play **inside its own dream**, on-chip RL)
+
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md). Short version: one link per bullet, one line why;
